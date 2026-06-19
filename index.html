@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mohammed V</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='10' fill='%230a0a0d'/><text x='32' y='45' font-family='Impact,Arial,sans-serif' font-size='30' font-weight='bold' letter-spacing='1' text-anchor='middle' fill='%2339ff14'>M.V</text></svg>">
 <style>
   :root {
     --neon-green: #39ff14;
@@ -321,6 +322,30 @@
     text-transform: uppercase;
     margin-top: 8px;
   }
+
+  .ai-note {
+    margin-top: 45px;
+    border: 1px solid rgba(0,240,255,0.3);
+    border-left: 3px solid var(--neon-cyan);
+    background: rgba(0,240,255,0.05);
+    padding: 28px 32px;
+  }
+
+  .ai-note h3 {
+    color: var(--neon-cyan);
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+
+  .ai-note p {
+    color: #ccc;
+    line-height: 1.8;
+    font-size: 0.98rem;
+  }
+
+  .ai-note strong { color: var(--neon-cyan); }
 
   /* WHAT I DO */
   .grid-cards {
@@ -653,6 +678,7 @@
     <li><a href="#what-i-do">What I Do</a></li>
     <li><a href="#experience">Experience</a></li>
     <li><a href="#projects">Projects</a></li>
+    <li><a href="#analysis">Analysis</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
   <button class="menu-toggle" id="menuToggle">☰</button>
@@ -665,9 +691,9 @@
     <span class="glitch" data-text="SPREADSHEET">SPREADSHEET</span>
   </h1>
   <p class="subtitle">
-    I'm Mohammed — a Finance Engineer driving efficiencies in 
-    high-growth startups. I build finance functions from scratch 
-    and automate them with tools, code and Ai!, so the numbers move faster.
+    I'm Mohammed — an AI-first finance generalist who builds finance &amp; ops
+    infrastructure for high-growth startups. From AR, AP and treasury to statutory,
+    tax and FP&amp;A — I set it up to run without friction as you scale.
   </p>
   <a href="#projects" class="cta">See The Builds</a>
   <div class="scroll-indicator">↓ scroll</div>
@@ -679,16 +705,22 @@
   <div class="about-content">
     <div class="about-text">
       <p>
-        4+ years of experience inside startups and scaleups — covering 
-        <strong>treasury, global AP/AR, FP&A, and statutory reporting</strong>. 
-        Key contributor to a successful <strong>M&A exit to a NASDAQ-listed 
-        acquirer</strong>.
+        4+ years inside startups and scaleups as a <strong>finance generalist</strong> —
+        comfortable across the full stack: <strong>AR, AP, cash, treasury, payroll,
+        statutory, tax, intercompany and FP&A</strong>. Key contributor to a successful
+        <strong>M&A exit to a NASDAQ-listed acquirer</strong>.
       </p>
       <p>
-        My edge is a <strong>technology-first mindset</strong>: APIs, Google Apps 
-        Script, and AI tools that turn manual finance processes into systems 
-        that just run. "Accountant" doesn't mean "spreadsheet robot" — it means 
-        understanding the process well enough to <strong>automate it away.</strong>
+        My focus is building finance &amp; ops <strong>infrastructure</strong> that
+        doesn't break when you scale — clean books, automated workflows and real-time
+        visibility, set up properly once so growth never creates friction. I'd rather
+        <strong>fix the root cause than firefight</strong> the same problem every month.
+      </p>
+      <p>
+        That toolkit is increasingly <strong>AI-driven</strong>: <strong>Claude Code</strong>
+        and <strong>Codex</strong> sit in my everyday workflow — this very site is one of
+        those builds, put together while I learn how the infrastructure actually works
+        rather than vibe-coding it, with more sites and apps in progress as we speak.
       </p>
     </div>
     <div class="about-stats">
@@ -710,6 +742,17 @@
       </div>
     </div>
   </div>
+  <div class="ai-note">
+    <h3>// How I use AI — responsibly</h3>
+    <p>
+      I work AI into finance carefully. I respect <strong>GDPR</strong> and never feed
+      personal data into AI tools — where personal information is unavoidable, I
+      substitute <strong>alternate, de-identified data</strong> instead. And rather than
+      burning tokens to firefight, I search for a <strong>permanent fix first</strong>:
+      building systems that solve the problem once, so the solution doesn't depend on
+      AI every single time.
+    </p>
+  </div>
 </section>
 
 <section id="what-i-do">
@@ -717,14 +760,14 @@
   <h2 class="section-title">What I Do</h2>
   <div class="grid-cards">
     <div class="card">
-      <span class="icon">⚡</span>
-      <h3>Workflow & API Automation</h3>
-      <p>API-driven and Apps Script-powered workflows that turn recurring finance tasks into automated batch processes.</p>
+      <span class="icon">🧹</span>
+      <h3>Streamlining Your Books & Clean-Ups</h3>
+      <p>Setting up your chart of accounts, benchmarking it against your industry, and reviewing historical data to clear out irregular entries — plus the boring-but-vital work: balance sheet reconciliations and P&L analysis. Foundation data must be spotless: garbage in, garbage out.</p>
     </div>
     <div class="card">
-      <span class="icon">💸</span>
-      <h3>Treasury & FX</h3>
-      <p>Automated cash visibility and FX hedging workflows delivering real-time liquidity across 25+ countries.</p>
+      <span class="icon">🧮</span>
+      <h3>Close & Consolidation</h3>
+      <p>Month-end close under FRS 102/IFRS, multi-entity consolidation, and multi-jurisdiction VAT and tax filings.</p>
     </div>
     <div class="card">
       <span class="icon">📊</span>
@@ -732,9 +775,14 @@
       <p>ARR/MRR and KPI reporting, budgeting, variance analysis, and management accounts that leadership actually reads.</p>
     </div>
     <div class="card">
-      <span class="icon">🧮</span>
-      <h3>Close & Consolidation</h3>
-      <p>Month-end close under FRS 102/IFRS, multi-entity consolidation, and multi-jurisdiction VAT and tax filings.</p>
+      <span class="icon">💸</span>
+      <h3>Treasury & FX</h3>
+      <p>Automated cash visibility and FX hedging workflows delivering real-time liquidity across 25+ countries.</p>
+    </div>
+    <div class="card">
+      <span class="icon">⚡</span>
+      <h3>Workflow & API Automation</h3>
+      <p>API-driven, Apps Script-powered and increasingly AI-assisted workflows that turn recurring finance tasks into systems that just run.</p>
     </div>
   </div>
 </section>
@@ -744,7 +792,7 @@
   <h2 class="section-title">Experience</h2>
   <div class="timeline">
     <div class="timeline-item">
-      <div class="role">FinOps Associate</div>
+      <div class="role">Finance & Operations Associate</div>
       <div class="dates">Mar 2025 – Present</div>
       <div class="company">Worked in a global EOR platform, helping cross-border hiring, managing finance for the group having 25+ entities</div>
       <ul class="desc">
@@ -760,9 +808,9 @@
       </div>
     </div>
     <div class="timeline-item">
-      <div class="role">FinOps Associate</div>
+      <div class="role">Finance & Operations Associate</div>
       <div class="dates">Sep 2023 – Feb 2025</div>
-      <div class="company">Quantico Analytics (RORA) — Embedded FinOps for UK & Irish startups</div>
+      <div class="company">Embedded FinOps partner for UK & Irish startups</div>
       <ul class="desc">
         <li>Embedded finance team member across 5+ clients — building finance functions where none existed.</li>
         <li>Full month-end close cycles, multi-jurisdiction VAT, payroll, and automation-led process improvements.</li>
@@ -776,7 +824,7 @@
     <div class="timeline-item">
       <div class="role">Accountant — Preparer / Reviewer</div>
       <div class="dates">Jul 2021 – Jun 2023</div>
-      <div class="company">SKS Business Services — UK SME accountancy firm</div>
+      <div class="company">UK SME accountancy practice</div>
       <ul class="desc">
         <li>Managed 6–8 SME clients monthly across multiple sectors; statutory accounts, VAT/MTD, and payroll.</li>
         <li>Built Excel macro automation to cut recurring task time; mentored junior team members.</li>
@@ -861,11 +909,33 @@
     <div class="skill-pill">UK VAT & MTD</div>
     <div class="skill-pill">UK & Global Payroll</div>
     <div class="skill-pill">Treasury & FX</div>
+    <div class="skill-pill">Claude Code</div>
+    <div class="skill-pill">Codex</div>
+    <div class="skill-pill">Git & GitHub</div>
+  </div>
+</section>
+
+<section id="analysis">
+  <span class="section-label">// 06 — The Numbers Behind Decisions</span>
+  <h2 class="section-title">Performance &amp; Decision Analysis</h2>
+  <div class="skills-grid">
+    <div class="skill-pill">Pricing Strategy</div>
+    <div class="skill-pill">Sensitivity Analysis</div>
+    <div class="skill-pill">Learning Curve Analysis</div>
+    <div class="skill-pill">Cash Flow Forecasting</div>
+    <div class="skill-pill">Variance Analysis</div>
+    <div class="skill-pill">Budgeting & Forecasting</div>
+    <div class="skill-pill">KPI & Performance Measurement</div>
+    <div class="skill-pill">Cost-Volume-Profit</div>
+    <div class="skill-pill">Relevant Costing & Decision-Making</div>
+    <div class="skill-pill">Target & Life-Cycle Costing</div>
+    <div class="skill-pill">Balanced Scorecard</div>
+    <div class="skill-pill">Transfer Pricing</div>
   </div>
 </section>
 
 <section id="contact">
-  <span class="section-label">// 06 — Get In Touch</span>
+  <span class="section-label">// 07 — Get In Touch</span>
   <h2 class="section-title">Let's Talk</h2>
   <p>
     Got a finance function that needs building, or a process eating up too 
